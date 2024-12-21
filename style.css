@@ -88,3 +88,29 @@ h2{
 .hide{
     display: none;
 }
+
+
+@media (max-width: 450px){
+    .game{
+        height: 50vh;
+        width: 50vh;
+    }
+    .box{
+        height: 12vh;
+        width: 12vh;
+        border: none;
+        border-radius: 2rem;
+        font-size: 10vh;
+        background-color: aqua;
+        gap: 0.5rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.4rem;
+    }
+    #msg{
+        font-size: 1.2rem;
+    }
+}
