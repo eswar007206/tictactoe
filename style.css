@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background-image: url("pic1.jpg");
+    text-align: center;
+}
+
+button{
+    color: black;
+    border: none;
+}
+
+h1{
+    margin-top: 4vh;
+    font-size: 3rem;
+    color: rgb(208, 255, 0);
+    text-decoration: solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-size: 1.5rem;
+    color:rgb(208, 255, 0);
+    text-decoration: solid;
+}
+
+.container{
+    height:65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.box{
+    height: 16vh;
+    width: 16vh;
+    border: none;
+    border-radius: 2rem;
+    font-size: 12vh;
+    background-color: aqua;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+#msg{
+    font-size: 3rem;
+    color: yellow;
+}
+
+#new-button{
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    background-color: cyan;
+    font-weight: 900;
+}
+
+#reset-button{
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 12px;
+    background-color: cyan;
+    font-weight: 800;
+}
+
+.hide{
+    display: none;
+}
